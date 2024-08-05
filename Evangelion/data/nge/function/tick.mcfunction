@@ -1,0 +1,1 @@
+function nge:core/core
