@@ -9,8 +9,8 @@ function nge:core/water/check with entity @s[predicate=nge:should_check]
 data modify entity @s[tag=inWater] Motion[1] set value -0.7d
 
 tag @s[tag=jumping,predicate=nge:should_stop_falling] remove jumping
-execute store result entity @s[tag=jumping] Motion[0] double 0.001 run scoreboard players get @s m0
-execute store result entity @s[tag=jumping] Motion[2] double 0.001 run scoreboard players get @s m2
+execute store result entity @s[tag=jumping] Motion[0] double 0.0005 run scoreboard players get @s m0
+execute store result entity @s[tag=jumping] Motion[2] double 0.0005 run scoreboard players get @s m2
 scoreboard players set @s[predicate=nge:should_stop_falling] m0 0
 scoreboard players set @s[predicate=nge:should_stop_falling] m2 0
 

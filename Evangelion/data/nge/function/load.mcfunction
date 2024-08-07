@@ -7,7 +7,7 @@ team modify evaPart seeFriendlyInvisibles false
 # Misc
 scoreboard objectives add water dummy
 scoreboard objectives add id dummy
-scoreboard objectives add modelData dummy
+scoreboard objectives add mData dummy
 # Motion
 scoreboard objectives add m0 dummy
 scoreboard objectives add m1 dummy

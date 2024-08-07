@@ -11,10 +11,10 @@ execute on vehicle run scoreboard players operation @e[tag=this,limit=1] fBeta =
 function nge:core/transform/translation
 
 function nge:core/transform/anim
-execute as @s[tag=head] at @a if score @s id = @p id run scoreboard players operation @s animAlpha = @p alpha
-execute as @s[tag=head] at @a if score @s id = @p id run scoreboard players operation @s animBeta = @p beta
 scoreboard players operation @s fAlpha += @s animAlpha
 scoreboard players operation @s fBeta += @s animBeta
+execute as @s[tag=head] at @a if score @s id = @p id run scoreboard players operation @s fAlpha = @p alpha
+execute as @s[tag=head] at @a if score @s id = @p id run scoreboard players operation @s fBeta = @p beta
 function nge:core/transform/display
 
 tag @e[tag=thisRotator] remove thisRotator

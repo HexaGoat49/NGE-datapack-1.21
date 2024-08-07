@@ -1,8 +1,8 @@
 # Executed at rotator
 tp @e[tag=thisPoint] ~ ~ ~
 
-execute if entity @s[tag=chair] run tp @e[tag=thisPoint] ^ ^0.25 ^-0.25
-execute if entity @s[tag=interior] run tp @e[tag=thisPoint] ^ ^-3.5 ^-0.5
+execute if entity @s[tag=chair] run tp @e[tag=thisPoint] ^ ^0.5 ^-0.25
+execute if entity @s[tag=interior] run tp @e[tag=thisPoint] ^ ^-3.25 ^-0.5
 
 execute if entity @s[tag=chest] run tp @e[tag=thisPoint] ^ ^1.75 ^-0.5
 execute if entity @s[tag=torso] run tp @e[tag=thisPoint] ^ ^-3 ^

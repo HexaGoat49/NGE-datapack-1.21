@@ -30,6 +30,29 @@ data modify entity @s[tag=opWing] item.components.custom_model_data set value 11
 data modify entity @s[tag=head] item.components.custom_model_data set value 114
 data modify entity @s[tag=jaw] item.components.custom_model_data set value 115
 
+scoreboard players set @s[tag=chest] mData 0
+scoreboard players set @s[tag=torso] mData 1 
+scoreboard players set @s[tag=leftArm] mData 2
+scoreboard players set @s[tag=rightArm] mData 3
+scoreboard players set @s[tag=leftForearm] mData 4
+scoreboard players set @s[tag=righForearm] mData 4
+scoreboard players set @s[tag=leftLeg] mData 5
+scoreboard players set @s[tag=rightLeg] mData 6
+scoreboard players set @s[tag=leftCalf] mData 7
+scoreboard players set @s[tag=rightCalf] mData 7
+scoreboard players set @s[tag=leftFoot] mData 8
+scoreboard players set @s[tag=rightFoot] mData 8
+scoreboard players set @s[tag=mainhand] mData 9
+scoreboard players set @s[tag=offhand] mData 10
+scoreboard players set @s[tag=opTop] mData 11
+scoreboard players set @s[tag=opBottom] mData 12 
+scoreboard players set @s[tag=opWing] mData 13 
+scoreboard players set @s[tag=head] mData 14
+scoreboard players set @s[tag=jaw] mData 15
+
+scoreboard players add @s mData 100
+execute store result entity @s item.components.custom_model_data int 1 run scoreboard players get @s mData
+
 ride @s[tag=chair] mount @e[tag=new,tag=root,limit=1]
 ride @s[tag=interior] mount @e[tag=new,tag=root,limit=1]
 ride @s[tag=chest] mount @e[tag=new,tag=root,limit=1]
