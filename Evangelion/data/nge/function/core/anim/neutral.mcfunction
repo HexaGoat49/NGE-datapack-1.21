@@ -27,6 +27,11 @@ scoreboard players set @s[tag=rightFoot] beta -7000
 
 scoreboard players set @s[tag=chair] beta 45000
 
+scoreboard players set @s animTime 10
 function nge:core/anim/set_pose
+
+scoreboard players add @s[tag=root,scores={verDelta=..1}] verDelta 150
+scoreboard players remove @s[tag=root,scores={verDelta=1..}] verDelta 150
+scoreboard players set @s[tag=root,scores={verDelta=-150..150}] verDelta 0
 
 execute on passengers as @s run function nge:core/anim/neutral

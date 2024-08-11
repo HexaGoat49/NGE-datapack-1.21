@@ -8,6 +8,10 @@ team modify evaPart seeFriendlyInvisibles false
 scoreboard objectives add water dummy
 scoreboard objectives add id dummy
 scoreboard objectives add mData dummy
+scoreboard objectives add speed dummy
+scoreboard objectives add verDelta dummy
+scoreboard objectives add yPos dummy
+scoreboard objectives add animId dummy
 # Motion
 scoreboard objectives add m0 dummy
 scoreboard objectives add m1 dummy

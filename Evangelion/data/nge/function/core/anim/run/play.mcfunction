@@ -1,3 +1,5 @@
+execute as @s[tag=root] run function nge:core/anim/run/vertical
+
 scoreboard players set @s[scores={time=30..}] time 0
 execute as @s[scores={time=0}] run function nge:core/anim/run/0
 execute as @s[scores={time=5}] run function nge:core/anim/run/1

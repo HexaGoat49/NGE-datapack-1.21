@@ -1,9 +1,9 @@
 summon minecraft:giant ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Tags:["main","evaPart","new"]}
-summon minecraft:giant ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Tags:["vehicle","evaPart","new"]}
-summon interaction ~ ~ ~ {width:4.0f,height:10.0f,Tags:["clicker","evaPart","new"]}
+summon minecraft:giant ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Tags:["vehicle","evaPart","new","verDelta"]}
+summon interaction ~ ~ ~ {width:4.0f,height:10.0f,Tags:["clicker","evaPart","new","verDelta"]}
 
-summon armor_stand ~ ~ ~ {Tags:["root","evaPart","new"]}
-summon armor_stand ~ ~ ~ {Tags:["rotator","evaPart","new"]}
+summon armor_stand ~ ~ ~ {Tags:["root","evaPart","new","verDelta"]}
+summon armor_stand ~ ~ ~ {Tags:["rotator","evaPart","new","verDelta"]}
 summon armor_stand ~ ~ ~ {Tags:["point","evaPart","new"]}
 
 summon item_display ~ ~ ~ {Tags:["interior","evaPart","new"]}

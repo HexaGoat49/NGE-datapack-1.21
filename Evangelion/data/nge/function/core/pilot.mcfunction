@@ -9,3 +9,8 @@ execute as @e[tag=root] store result score @s alpha run data get entity @s Rotat
 execute as @s store result score @s alpha run data get entity @s Rotation[0] -1000
 execute as @s store result score @s beta run data get entity @s Rotation[1] 1000
 execute at @s as @e[tag=root] if score @p id = @s id run scoreboard players operation @p alpha -= @s alpha
+
+scoreboard players set @s speed 20
+execute at @s as @e[tag=main,tag=inWater] if score @p id = @s id run scoreboard players set @p speed 5
+
+function nge:core/anim/controller
