@@ -43,6 +43,8 @@ scoreboard objectives add tz dummy
 # Global values
 scoreboard objectives add global dummy
 scoreboard players set G2 global 2
+scoreboard players set G3 global 3
+scoreboard players set G4 global 4
 scoreboard players set G-1 global -1
 
 scoreboard players set idStack id 0

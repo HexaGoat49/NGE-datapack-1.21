@@ -9,4 +9,4 @@ execute as @s[scores={time=20}] run function nge:core/anim/run/4
 execute as @s[scores={time=25}] run function nge:core/anim/run/5
 scoreboard players add @s time 1
 
-execute on passengers as @s run function nge:core/anim/run/play
+execute as @s[tag=!disabled] on passengers as @s run function nge:core/anim/run/play

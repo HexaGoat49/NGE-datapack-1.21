@@ -7,4 +7,4 @@ execute as @s[scores={time=40}] run function nge:core/anim/jump/3
 execute as @s[tag=root] run function nge:core/anim/jump/vertical
 
 scoreboard players add @s time 1
-execute on passengers as @s run function nge:core/anim/jump/play
+execute as @s[tag=!disabled] on passengers as @s run function nge:core/anim/jump/play
