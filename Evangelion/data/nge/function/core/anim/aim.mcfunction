@@ -24,4 +24,6 @@ scoreboard players set @s[tag=leftForearm,scores={beta=-10000..}] beta -10000
 scoreboard players set @s animTime 5
 function nge:core/anim/set_pose
 
+data modify entity @s[tag=mainhand] item.components."minecraft:custom_model_data" set value 116
+
 execute on passengers as @s run function nge:core/anim/aim

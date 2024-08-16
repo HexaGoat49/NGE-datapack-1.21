@@ -34,4 +34,4 @@ scoreboard players add @s[tag=root,scores={verDelta=..1}] verDelta 150
 scoreboard players remove @s[tag=root,scores={verDelta=1..}] verDelta 150
 scoreboard players set @s[tag=root,scores={verDelta=-150..150}] verDelta 0
 
-execute as @s[tag=!disabled] on passengers as @s run function nge:core/anim/neutral
+execute as @s on passengers as @s run function nge:core/anim/neutral

@@ -15,6 +15,5 @@ scoreboard players set @s[tag=rightForearm] beta -50000
 scoreboard players set @s[tag=leftArm] beta 80000
 scoreboard players set @s[tag=leftForearm] beta -50000
 
-
 scoreboard players set @s animTime 10
 function nge:core/anim/set_pose

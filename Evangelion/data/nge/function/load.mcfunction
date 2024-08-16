@@ -12,6 +12,7 @@ scoreboard objectives add speed dummy
 scoreboard objectives add verDelta dummy
 scoreboard objectives add yPos dummy
 scoreboard objectives add animId dummy
+scoreboard objectives add attackId dummy
 # Motion
 scoreboard objectives add m0 dummy
 scoreboard objectives add m1 dummy
